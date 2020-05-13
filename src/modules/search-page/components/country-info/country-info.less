@@ -1,0 +1,40 @@
+.country-info {
+  height: 72%;
+  padding: 15px 20px;
+  display: flex;
+  flex-direction: row;
+
+  &__flag-container {
+    padding: 0 20px;
+    margin-right: 10px;
+  }
+
+  &_title {
+    display: flex;
+    font-size: 1.3rem;
+    font-weight: bold;
+    padding: 0 5px 15px 5px;
+  }
+
+  &_title p {
+    padding-left: 5px;
+    font-weight: normal;
+  }
+
+  &_subtitle {
+    display: flex;
+    font-size: 1.1rem;
+    padding: 5px;
+  }
+
+  &_subtitle p {
+    padding-left: 5px;
+  }
+}
+
+@media screen and (max-width: 900px) {
+  .country-info {
+    height: 31%;
+    overflow-y: scroll;
+  }
+}

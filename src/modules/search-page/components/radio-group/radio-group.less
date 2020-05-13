@@ -1,0 +1,50 @@
+@text-color-red: #DF2745;
+
+@font-face {
+  font-family: 'Montserrat-Black';
+  src: url('../../../../../public/fonts/Montserrat/Montserrat-SemiBold.ttf');
+}
+
+.radio-group {
+  display: flex;
+  flex-direction: row;
+  margin: 15px;
+  color: white;
+  font-family: 'Montserrat-Black';
+  font-size: 1.2rem;
+  padding-left: 0;
+}
+
+.radio-group label, .radio-group input {
+  display: block;
+}
+
+.radio-group label {
+  padding: 20px 30px;
+  text-align: center;
+  cursor: pointer;
+  z-index: 90;
+  background-color: @text-color-red;
+
+  &:hover {
+    background-color: darken(@text-color-red, 10%);
+  }
+}
+
+.radio-group input[type="radio"] {
+  display: none;
+}
+
+.radio-group input[type="radio"]:checked+label {
+  background: darken(@text-color-red, 30%);
+}
+
+@media screen and (max-width: 900px) {
+  .radio-group {
+    flex-direction: column;
+
+    &__item {
+      width: 100%;
+    }
+  }
+}
