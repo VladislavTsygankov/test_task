@@ -86,6 +86,6 @@
     "redux-define": "^1.1.1",
     "redux-devtools-extension": "^2.13.8",
     "redux-thunk": "^2.3.0",
-    "validator": "^10.5.0"
+    "validator": "^13.7.0"
   }
 }
