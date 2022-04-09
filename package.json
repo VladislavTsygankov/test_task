@@ -66,7 +66,7 @@
     "js-joda": "^1.9.2",
     "lodash": "^4.17.11",
     "material-ui-time-picker": "^1.0.0",
-    "moment": "^2.22.2",
+    "moment": "^2.29.2",
     "prop-types": "^15.6.2",
     "rc-time-picker": "^3.4.0",
     "react": "^16.13.1",
